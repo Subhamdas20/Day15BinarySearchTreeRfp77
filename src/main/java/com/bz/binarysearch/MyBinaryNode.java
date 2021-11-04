@@ -1,7 +1,10 @@
 package com.bz.binarysearch;
 
 public class MyBinaryNode<T extends Comparable<T>> {
-    MyBinaryNode<T> left ;
+    /*
+    * Class with binary nodes as properties
+    * */
+    MyBinaryNode<T> left;
     MyBinaryNode<T> right;
     T key;
 
